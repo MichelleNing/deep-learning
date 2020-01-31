@@ -13,5 +13,13 @@ This repository contains exercises related to Udacity's Deep Learning Nanodegree
 - Autoencoders: Build models for image compression and de-noising, using feedforward and convolutional networks in PyTorch.
 - Style Transfer: Extract style and content features from images, using a pre-trained network. Implement style transfer according to the paper, Image Style Transfer Using Convolutional Neural Networks by Gatys et. al. Define appropriate losses for iteratively creating a target, style-transferred image of your own design!
 ### Recurrent Nerual Networks
+- Intro to Recurrent Networks (Time series & Character-level RNN): Recurrent neural networks are able to use information about the sequence of data, such as the sequence of characters in text; learn how to implement these in PyTorch for a variety of tasks.
+- Embeddings (Word2Vec): Implement the Word2Vec model to find semantic representations of words for use in natural language processing.
+- Sentiment Analysis RNN: Implement a recurrent neural network that can predict if the text of a moview review is positive or negative.
+- Attention: Implement attention and apply it to annotation vectors.
 ### Generative Adversarial Networks
+- Generative Adversarial Network on MNIST: Train a simple generative adversarial network on the MNIST dataset.
+- Batch Normalization: Learn how to improve training rates and network stability with batch normalizations.
+- Deep Convolutional GAN (DCGAN): Implement a DCGAN to generate new images based on the Street View House Numbers (SVHN) dataset.
+- CycleGAN: Implement a CycleGAN that is designed to learn from unpaired and unlabeled data; use trained generators to transform images from summer to winter and vice versa.
 ### Deploying a Model (with AWS SageMaker)
